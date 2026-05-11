@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Convertify Forge"
+version = "1.0.0"
+id = "artifacts/convertify-forge"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23381
+
+[services.development]
+run = "pnpm --filter @workspace/convertify-forge run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/convertify-forge", "run", "build" ]
+publicDir = "artifacts/convertify-forge/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23381"
+BASE_PATH = "/"

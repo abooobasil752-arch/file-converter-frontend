@@ -1,0 +1,173 @@
+Build a premium modern SaaS File Converter web application UI with a completely unique visual identity.
+
+Project Name:
+Convertify Forge
+
+Branding:
+Built by Abdulrahman © 2026
+
+Tech Stack:
+- Next.js
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- Lucide React icons
+
+IMPORTANT DESIGN DIRECTION:
+Do NOT use the common blue/violet SaaS style.
+Make the design look completely different, bold, memorable, and premium.
+
+New Visual Style:
+- Dark luxury interface
+- Futuristic productivity dashboard
+- Black, graphite, warm orange, gold, emerald, and cream colors
+- Premium glass panels
+- Metallic gradients
+- Soft glowing edges
+- Floating geometric objects
+- File conversion “control center” feeling
+- High contrast
+- Clean spacing
+- Professional but visually powerful
+
+Color Palette:
+- Background: #050505, #111111, #18181B
+- Cards: dark graphite glass
+- Primary Accent: warm orange #FF7A1A
+- Secondary Accent: emerald #10B981
+- Luxury Accent: gold #F5C542
+- Text: cream white #FFF7ED
+- Muted text: #A1A1AA
+
+Overall Feel:
+Make it feel like a premium file conversion command center, not a generic SaaS landing page.
+
+Navbar:
+- Dark floating navbar
+- Thin gold/orange glowing border
+- Logo: Convertify Forge
+- Links: Tools, Workflow, Converter, Contact
+- CTA button: Launch Converter
+- Button should have orange/gold glow and animated border
+
+Hero Section:
+Headline:
+"Forge Any File Into The Format You Need"
+
+Subheadline:
+"Convert Word, PDF, images, and documents through a fast, elegant, and developer-built conversion platform."
+
+Hero Layout:
+- Split layout
+- Left side: headline, text, CTAs
+- Right side: futuristic file conversion dashboard mockup
+
+Hero Visual:
+- Animated file cards: DOCX, PDF, PNG, JPG
+- Conversion arrows between cards
+- Glowing processing ring
+- Terminal-style mini activity log
+- Floating metallic cubes or hexagons
+- Animated progress bars
+
+Buttons:
+Create unique button styles:
+- Primary: glowing orange/gold button
+- Secondary: transparent glass button with border
+- Add hover glow and slight 3D lift
+- Avoid simple blue gradient buttons
+
+Converter Section:
+- Large dark glass upload panel
+- Drag and drop zone with animated orange dashed border
+- Conversion type cards instead of dropdowns
+- Cards for:
+  - DOCX → PDF
+  - PDF → DOCX
+  - Image → PDF
+  - Merge PDFs
+  - Split PDF
+- Selected conversion card should glow emerald
+- Upload progress should look like a futuristic loading rail
+- Download button should appear as a premium success card
+
+Tools Section:
+Create a grid of tool cards with:
+- Dark glass backgrounds
+- Metallic border
+- Hover 3D tilt
+- Icon glow
+- Small status tag: Available
+- Each tool card should feel interactive and premium
+
+Activity Panel:
+Create a terminal-inspired conversion activity panel:
+- Shows conversion history
+- Animated status messages
+- “Uploading…”
+- “Processing file…”
+- “Optimizing output…”
+- “Ready to download”
+- Green success indicators
+- Smooth scrolling log animation
+
+How It Works Section:
+Use a horizontal workflow:
+1. Upload
+2. Choose Format
+3. Convert
+4. Download
+
+Make each step a futuristic node connected by glowing lines.
+
+Features Section:
+Create premium cards for:
+- Fast File Conversion
+- Secure Local Processing
+- Multiple File Formats
+- Clean Download Flow
+- Python Backend Ready
+- Developer Friendly API
+
+Footer:
+- Dark luxury footer
+- Built by Abdulrahman © 2026
+- GitHub button
+- Contact link
+- Subtle glowing top border
+
+Background Effects:
+- Animated orange and emerald glow blobs
+- Subtle dark grid pattern
+- Floating particles
+- Moving light beams
+- Soft vignette
+- No childish colors
+
+Functional Requirements:
+Backend API endpoints to support later:
+POST http://127.0.0.1:8000/convert
+FormData fields:
+- file
+- conversion_type
+
+Expected frontend behavior:
+- Select conversion type
+- Upload file
+- Send file and conversion type to backend
+- Show loading state
+- Show success state
+- Show download button when backend returns converted file URL/blob
+
+Code Requirements:
+- Production-quality code
+- Clean reusable components
+- Type-safe TypeScript
+- Fully responsive
+- Framer Motion animations
+- Beautiful loading states
+- Portfolio-level quality
+
+Final Goal:
+The UI should look completely different from the previous light AI SaaS designs.
+Make it look like a serious premium tool that clients would trust and pay for.
