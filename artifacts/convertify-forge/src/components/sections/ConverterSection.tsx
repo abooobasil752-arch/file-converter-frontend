@@ -174,7 +174,7 @@ export default function ConverterSection() {
         formData.append("end_page", "1");
       }
 
-      const res = await fetch("https://file-converter-pro-q3a9.onrender.com/convert", {
+      const res = await fetch("https://file-converter-pro-1.onrender.com/convert", {
         method: "POST",
         body: formData,
       });
